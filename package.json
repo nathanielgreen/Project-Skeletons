@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "webpack -d --watch",
-    "build": "webpack",
+    "build": "webpack && cp src/index.html public/index.html",
     "serve": "node server.js"
   },
   "author": "",
