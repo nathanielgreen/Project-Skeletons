@@ -1,7 +1,4 @@
-# Project Skeltons
+# React + Express + Docker
 
-This repository contains skeletons for different types of projects.
-
-## Contents
-
-[React + Express + Docker]{./react-express-docker}
+This is a simple front-end web app that spins up a simple React App using
+express and builds for Docker.
