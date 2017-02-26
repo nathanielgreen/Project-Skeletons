@@ -1,0 +1,28 @@
+body {
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: 0.7s;
+  visibility: hidden;
+  width: 100%;
+}
+
+#div1 {
+  visibility: visible;
+  opacity: 1;
+}
