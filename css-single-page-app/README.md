@@ -8,7 +8,7 @@ front-end frameworks like Angular or React.
 
 ## Using it
 
-The default settings uses the script `viewSwitcher.js` which contains the function
+The default settings use the script `viewSwitcher.js` which contains the function
 `switchSection(section)`, as well as jQuery Click events for triggering the view
 switcher.
 
@@ -16,13 +16,13 @@ This folder contains a default setup containing 3 divs to switch between.
 
 ## How it works
 
-It essentially just switches the `visibility` and `opacity` values when moving
+It essentially just switches the `visibility` and `opacity` CSS values when moving
 to a different view.
 
-The `switchSection` function is triggered by the jQuery click even on any
+The `switchSection` function is triggered by the jQuery click event on any
 element with `button` as its class.
 
-The jQuery click event passes the id as an string arguement (in this example, the 
+The jQuery click event passes the id as a string arguement (in this example, the 
 string is truncated as every button for view switching is labelled with the id
 `button-divX`).
 
